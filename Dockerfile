@@ -1,4 +1,4 @@
 FROM postgres
 ENV POSTGRES_PASSWORD docker
-ENV POSTGRES_DB world
-COPY world.sql /docker-entrypoint-initdb.d/
+ENV POSTGRES_DB demo
+COPY demo.sql /docker-entrypoint-initdb.d/
